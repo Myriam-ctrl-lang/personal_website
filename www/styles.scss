@@ -1,0 +1,46 @@
+/*-- scss:defaults --*/
+
+/* Colors */
+$body-bg: #FFFFFF;
+$body-color: rgb(55, 58, 60);
+$link-color: rgb(39, 128, 227);
+
+/* Fonts */
+$font-family-sans-serif: "Source Sans Pro", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-size-root: 20px;
+
+$navbar-bg: #170C3A !default;
+$navbar-fg: #ffffff !default;
+
+.quarto-title-block {
+  text-align: left;
+
+  h1.title {
+    font-size: 3em;}
+
+  p.subtitle {
+    font-size: 1.2em; // optionnel
+    color: black;
+    font-style: normal;
+    font-weight: 400;}
+    }
+
+.quarto-title-banner {
+  padding: 0.2rem 0.5rem !important;
+  min-height: unset !important;
+  margin-top: 0.2rem !important; margin-bottom: 0.5rem !important;}
+
+img {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.6);}
+  
+.badge {
+  background-color: #eef3f8 !important;
+  color: #0f417a !important;
+  font-size: 1.1em;
+  padding: 6px 12px;
+  border-radius: 20px;
+  display: inline-block;}
+

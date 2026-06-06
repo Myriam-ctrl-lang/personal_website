@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>M.Y - Informatique Décisionnelle, Sociologie &amp; Démographie</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #CF4446;
+      }
+</style>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/ggiraphjs-0.9.4/girafe.css" rel="stylesheet">
+<script src="site_libs/ggiraphjs-0.9.4/girafe.js"></script>
+<script src="site_libs/girafe-binding-0.9.6/girafe.js"></script>
+<link href="site_libs/liberation-sans-0.5.0/css/liberation-sans.css" rel="stylesheet">
+<link href="site_libs/liberation-serif-0.5.0/css/liberation-serif.css" rel="stylesheet">
+<link href="site_libs/liberation-mono-0.5.0/css/liberation-mono.css" rel="stylesheet">
+
+
+<meta property="og:title" content="M.Y - Informatique Décisionnelle, Sociologie &amp; Démographie">
+<meta property="og:site_name" content="M.Y">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">M.Y</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> <i class="bi bi-megaphone" role="img">
+</i> 
+<span class="menu-text">À propos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./parcours.html"> <i class="bi bi-map" role="img">
+</i> 
+<span class="menu-text">Mon parcours</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects/index.html"> <i class="bi bi-bookmark-check" role="img">
+</i> 
+<span class="menu-text">Mes tutoriels</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:myriam.yahyaoui2@gmail.com"> <i class="bi bi-mail" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/andrewheiss"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/andrewheiss"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Informatique Décisionnelle, Sociologie &amp; Démographie</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#universitaire" id="toc-universitaire" class="nav-link active" data-scroll-target="#universitaire">🎓 Universitaire</a></li>
+  <li><a href="#professionnel" id="toc-professionnel" class="nav-link" data-scroll-target="#professionnel">👩💻 Professionnel</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+<section id="universitaire" class="level2">
+<h2 class="anchored" data-anchor-id="universitaire">🎓 Universitaire</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="girafe html-widget html-fill-item" id="htmlwidget-502c8259de4714f3f281" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-502c8259de4714f3f281">{"x":{"html":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='ggiraph-svg' role='graphics-document' id='svg_5afb45b7732d6f7c' viewBox='0 0 1152 432'>\n <defs id='svg_5afb45b7732d6f7c_defs'>\n  <clipPath id='svg_5afb45b7732d6f7c_c1'>\n   <rect x='0' y='0' width='1152' height='432'/>\n  <\/clipPath>\n  <clipPath id='svg_5afb45b7732d6f7c_c2'>\n   <rect x='109.03' y='146.15' width='1042.97' height='201.57'/>\n  <\/clipPath>\n <\/defs>\n <g id='svg_5afb45b7732d6f7c_rootg' class='ggiraph-svg-rootg'>\n  <g clip-path='url(#svg_5afb45b7732d6f7c_c1)'>\n   <rect x='0' y='0' width='1152' height='432' fill='#FFFFFF' fill-opacity='1' stroke='#FFFFFF' stroke-opacity='1' stroke-width='0.75' stroke-linejoin='round' stroke-linecap='round' class='ggiraph-svg-bg'/>\n   <rect x='0' y='0' width='1152' height='432' fill='#FFFFFF' fill-opacity='1' stroke='none'/>\n  <\/g>\n  <g clip-path='url(#svg_5afb45b7732d6f7c_c2)'>\n   <rect x='109.03' y='146.15' width='1042.97' height='201.57' fill='#FFFFFF' fill-opacity='1' stroke='none'/>\n   <polyline points='130.75,347.72 130.75,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='182.12,347.72 182.12,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='233.06,347.72 233.06,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='284.22,347.72 284.22,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='335.79,347.72 335.79,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='386.74,347.72 386.74,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='437.89,347.72 437.89,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='489.47,347.72 489.47,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='540.41,347.72 540.41,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='591.57,347.72 591.57,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='643.14,347.72 643.14,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='694.30,347.72 694.30,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='745.67,347.72 745.67,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='797.24,347.72 797.24,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='848.19,347.72 848.19,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='899.34,347.72 899.34,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='950.92,347.72 950.92,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='1001.86,347.72 1001.86,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='1053.02,347.72 1053.02,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='1104.59,347.72 1104.59,146.15' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='109.03,292.75 1152.00,292.75' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='1.94' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='109.03,201.12 1152.00,201.12' fill='none' stroke='#EBEBEB' stroke-opacity='1' stroke-width='1.94' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='156.44,347.72 156.44,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='207.80,347.72 207.80,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='258.32,347.72 258.32,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='310.11,347.72 310.11,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='361.48,347.72 361.48,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='412.00,347.72 412.00,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='463.79,347.72 463.79,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='515.15,347.72 515.15,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='565.68,347.72 565.68,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='617.46,347.72 617.46,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='668.83,347.72 668.83,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='719.77,347.72 719.77,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='771.56,347.72 771.56,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='822.92,347.72 822.92,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='873.45,347.72 873.45,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='925.23,347.72 925.23,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='976.60,347.72 976.60,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='1027.12,347.72 1027.12,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='1078.91,347.72 1078.91,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='1130.27,347.72 1130.27,146.15' fill='none' stroke='#CCFFBB' stroke-opacity='1' stroke-width='2.24' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline id='svg_5afb45b7732d6f7c_e1' points='156.44,201.12 437.68,201.12' fill='none' stroke='#FBB4AE' stroke-opacity='1' stroke-width='80.02' stroke-linejoin='round' stroke-linecap='butt' title='Matières principales : gestion de base de données, statistique inférentielle,&amp;lt;br/&amp;gt;modèle linéaire&amp;lt;br/&amp;gt;et programmation statistique'/>\n   <polyline id='svg_5afb45b7732d6f7c_e2' points='405.68,292.75 442.74,292.75' fill='none' stroke='#FBB4AE' stroke-opacity='1' stroke-width='80.02' stroke-linejoin='round' stroke-linecap='butt' title='Mission: nettoyage et préparation d’une base de données contenue dans un fichier Excel dans le cadre d’une étude sur le marché numérique des revues de Sciences Humaines et Sociales.'/>\n   <polyline id='svg_5afb45b7732d6f7c_e3' points='463.79,201.12 578.73,201.12' fill='none' stroke='#B3CDE3' stroke-opacity='1' stroke-width='80.02' stroke-linejoin='round' stroke-linecap='butt' title='Matières principales : analyse de données démographiques et&amp;lt;br/&amp;gt;pratique de l’enquête sociologique'/>\n   <polyline id='svg_5afb45b7732d6f7c_e4' points='617.46,201.12 732.82,201.12' fill='none' stroke='#B3CDE3' stroke-opacity='1' stroke-width='80.02' stroke-linejoin='round' stroke-linecap='butt' title='Matières principales : approche historique des populations,&amp;lt;br/&amp;gt;analyse spatiale et cartographie'/>\n   <polyline id='svg_5afb45b7732d6f7c_e5' points='771.56,201.12 886.50,201.12' fill='none' stroke='#B3CDE3' stroke-opacity='1' stroke-width='80.02' stroke-linejoin='round' stroke-linecap='butt' title='Matières principales : démographie locale et appliquée,&amp;lt;br/&amp;gt;modèle de population, biographique et &amp;lt;br/&amp;gt;projection de population'/>\n   <polyline id='svg_5afb45b7732d6f7c_e6' points='830.08,292.75 907.97,292.75' fill='none' stroke='#B3CDE3' stroke-opacity='1' stroke-width='80.02' stroke-linejoin='round' stroke-linecap='butt' title='Mission: analyse de l’effet de la composition par sexe des fratries sur les probabilités que des femmes ayant déjà i enfants donnent naissance à un i+1ème enfant. &amp;lt;br/&amp;gt;Exploitation des données des Enquêtes Démographiques et de Santé'/>\n   <polyline id='svg_5afb45b7732d6f7c_e7' points='630.09,292.75 797.24,292.75' fill='none' stroke='#B3CDE3' stroke-opacity='1' stroke-width='80.02' stroke-linejoin='round' stroke-linecap='butt' title='Mission: co-rédaction d’un article scientifique mené conjointement par six étudiants encadrés par : Cris Beauchemin (INED) et Adrien Vandenbunder (INED/Paris-Dauphine) : “Trajectoires légales des migrants en Europe et réintégration socio-économique au Sénégal”.&amp;lt;br/&amp;gt;Exploitation des données de l’enquête TEMPER.'/>\n   <polyline id='svg_5afb45b7732d6f7c_e8' points='515.15,292.75 536.20,292.75' fill='none' stroke='#B3CDE3' stroke-opacity='1' stroke-width='80.02' stroke-linejoin='round' stroke-linecap='butt' title='Mission: identifier des logements à recenser, dépôt des questionnaires et relance,&amp;lt;br/&amp;gt;explication et encouragement de la réponse dématérialisée.'/>\n   <polyline id='svg_5afb45b7732d6f7c_e9' points='925.23,201.12 1040.17,201.12' fill='none' stroke='#CCEBC5' stroke-opacity='1' stroke-width='80.02' stroke-linejoin='round' stroke-linecap='butt' title='Matières principales :  science des réseaux sociaux et économiques, méthodes quantitatives avancées contemporaines en sociologie,&amp;lt;br/&amp;gt;démographie et sociologie de la santé'/>\n   <polyline id='svg_5afb45b7732d6f7c_e10' points='933.23,292.75 1084.80,292.75' fill='none' stroke='#CCEBC5' stroke-opacity='1' stroke-width='80.02' stroke-linejoin='round' stroke-linecap='butt' title='Mission: Poursuite du sujet de stage en y ajoutant une analyse comparée de la fécondité masculine.'/>\n   <text x='172.2' y='185.73' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>• DUT Statistique et<\/text>\n   <text x='166.77' y='206.21' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>Informatique<\/text>\n   <text x='167.43' y='226.7' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>Décisionnelle<\/text>\n   <text x='474.72' y='175.49' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>• L3 Sciences<\/text>\n   <text x='470.71' y='195.97' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>Sociales<\/text>\n   <text x='471.09' y='216.46' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>parcours<\/text>\n   <text x='474.69' y='236.94' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>Démographie<\/text>\n   <text x='620.9' y='195.97' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>• M1<\/text>\n   <text x='628.36' y='216.46' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>Démographie<\/text>\n   <text x='782.78' y='185.73' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>• M2 parcours<\/text>\n   <text x='776.87' y='206.21' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>Expert<\/text>\n   <text x='781.99' y='226.7' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>Démographe<\/text>\n   <text x='928.68' y='175.49' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>• M2<\/text>\n   <text x='933.86' y='195.97' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>Sociologie<\/text>\n   <text x='935.09' y='216.46' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>Quantitative<\/text>\n   <text x='938.13' y='236.94' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>et Démographie<\/text>\n   <text x='413.58' y='287.6' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>• Chargée<\/text>\n   <text x='412.63' y='308.08' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>d'études<\/text>\n   <text x='520.99' y='287.6' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>• Agent<\/text>\n   <text x='524.54' y='308.08' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>recenseuse<\/text>\n   <text x='643.4' y='287.6' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>• Chercheuse en<\/text>\n   <text x='641' y='308.08' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>Démographie<\/text>\n   <text x='837.98' y='277.35' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>• Chargée<\/text>\n   <text x='832.07' y='297.84' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>de<\/text>\n   <text x='838.24' y='318.32' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>recherche<\/text>\n   <text x='946.54' y='287.6' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>• Chercheuse en<\/text>\n   <text x='936.93' y='308.08' font-size='10.67pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='0.8'>SQD<\/text>\n  <\/g>\n  <g clip-path='url(#svg_5afb45b7732d6f7c_c1)'>\n   <polyline points='109.03,347.72 109.03,146.15' fill='none' stroke='#33836D' stroke-opacity='1' stroke-width='3.2' stroke-linejoin='round' stroke-linecap='butt'/>\n   <text transform='translate(61.54,327.15) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>Activité<\/text>\n   <text transform='translate(32.86,380.27) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>Professionnelle<\/text>\n   <text transform='translate(53.18,256.10) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>Formation<\/text>\n   <polyline points='109.03,347.72 1152.00,347.72' fill='none' stroke='#33836D' stroke-opacity='1' stroke-width='3.2' stroke-linejoin='round' stroke-linecap='butt'/>\n   <polyline points='1144.64,351.97 1152.00,347.72 1144.64,343.47' fill='none' stroke='#33836D' stroke-opacity='1' stroke-width='3.2' stroke-linejoin='round' stroke-linecap='butt'/>\n   <text transform='translate(142.11,392.40) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>sept.<\/text>\n   <text transform='translate(152.44,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2016<\/text>\n   <text transform='translate(194.21,391.66) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>janv.<\/text>\n   <text transform='translate(203.80,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2017<\/text>\n   <text transform='translate(247.15,389.25) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>mai<\/text>\n   <text transform='translate(254.33,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2017<\/text>\n   <text transform='translate(295.79,392.40) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>sept.<\/text>\n   <text transform='translate(306.11,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2017<\/text>\n   <text transform='translate(347.89,391.66) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>janv.<\/text>\n   <text transform='translate(357.48,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2018<\/text>\n   <text transform='translate(400.83,389.25) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>mai<\/text>\n   <text transform='translate(408.00,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2018<\/text>\n   <text transform='translate(449.47,392.40) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>sept.<\/text>\n   <text transform='translate(459.79,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2018<\/text>\n   <text transform='translate(501.56,391.66) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>janv.<\/text>\n   <text transform='translate(511.16,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2019<\/text>\n   <text transform='translate(554.50,389.25) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>mai<\/text>\n   <text transform='translate(561.68,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2019<\/text>\n   <text transform='translate(603.14,392.40) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>sept.<\/text>\n   <text transform='translate(613.47,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2019<\/text>\n   <text transform='translate(655.24,391.66) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>janv.<\/text>\n   <text transform='translate(664.83,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2020<\/text>\n   <text transform='translate(708.60,389.25) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>mai<\/text>\n   <text transform='translate(715.78,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2020<\/text>\n   <text transform='translate(757.24,392.40) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>sept.<\/text>\n   <text transform='translate(767.56,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2020<\/text>\n   <text transform='translate(809.34,391.66) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>janv.<\/text>\n   <text transform='translate(818.93,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2021<\/text>\n   <text transform='translate(862.27,389.25) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>mai<\/text>\n   <text transform='translate(869.45,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2021<\/text>\n   <text transform='translate(910.91,392.40) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>sept.<\/text>\n   <text transform='translate(921.24,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2021<\/text>\n   <text transform='translate(963.01,391.66) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>janv.<\/text>\n   <text transform='translate(972.60,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2022<\/text>\n   <text transform='translate(1015.95,389.25) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>mai<\/text>\n   <text transform='translate(1023.13,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2022<\/text>\n   <text transform='translate(1064.59,392.40) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>sept.<\/text>\n   <text transform='translate(1074.91,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2022<\/text>\n   <text transform='translate(1116.69,391.66) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'>janv.<\/text>\n   <text transform='translate(1126.28,406.51) rotate(-45.00)' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;' fill='#4D4D4D' fill-opacity='1'> 2023<\/text>\n   <text x='118.99' y='70.27' font-size='15pt' font-weight='bold' font-family='News Cycle, Arial Narrow Bold, sans-serif;'>École<\/text>\n   <line x1='192.95' y1='63.11' x2='277.99' y2='63.11' stroke='#FBB4AE' stroke-opacity='1' stroke-width='80.02' stroke-linejoin='round' stroke-linecap='butt'/>\n   <line x1='519.9' y1='63.11' x2='604.94' y2='63.11' stroke='#B3CDE3' stroke-opacity='1' stroke-width='80.02' stroke-linejoin='round' stroke-linecap='butt'/>\n   <line x1='764.42' y1='63.11' x2='849.46' y2='63.11' stroke='#CCEBC5' stroke-opacity='1' stroke-width='80.02' stroke-linejoin='round' stroke-linecap='butt'/>\n   <text x='298.58' y='51.56' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;'>Institut<\/text>\n   <text x='298.58' y='68.84' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;'>Universitaire de Technologie<\/text>\n   <text x='298.58' y='86.12' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;'>de Paris Descartes<\/text>\n   <text x='625.53' y='51.56' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;'>Institut de<\/text>\n   <text x='625.53' y='68.84' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;'>Démographie de<\/text>\n   <text x='625.53' y='86.12' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;'>l'Univ. Paris 1<\/text>\n   <text x='870.06' y='51.56' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;'>Univ. de<\/text>\n   <text x='870.06' y='68.84' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;'>Versailles St Quentin en Yvelines <\/text>\n   <text x='870.06' y='86.12' font-size='12pt' font-family='News Cycle, Arial Narrow Bold, sans-serif;'>et coordonnée par l'ENS et l'ENSAE<\/text>\n   <text x='984.14' y='428.67' font-size='12pt' font-family='Liberation Sans'>Traitements par l'auteur<\/text>\n  <\/g>\n <\/g>\n<\/svg>","js":null,"uid":"svg_5afb45b7732d6f7c","ratio":2.666666666666667,"settings":{"tooltip":{"css":".tooltip_SVGID_ { padding:5px;background:black;color:white;border-radius:2px;text-align:left; ; position:absolute;pointer-events:none;z-index:9999;}","placement":"doc","opacity":0.9,"offx":10,"offy":10,"use_cursor_pos":true,"use_fill":false,"use_stroke":false,"delay_over":200,"delay_out":500},"hover":{"css":".hover_data_SVGID_ { stroke-width:2; }","reactive":true,"nearest_distance":null,"linked":false},"hover_inv":{"css":".hover_inv_SVGID_ { opacity:0.1; }"},"hover_key":{"css":".hover_key_SVGID_ { fill:orange;stroke:black;cursor:pointer; }\ntext.hover_key_SVGID_ { stroke:none;fill:orange; }\ncircle.hover_key_SVGID_ { fill:orange;stroke:black; }\nline.hover_key_SVGID_, polyline.hover_key_SVGID_ { fill:none;stroke:orange; }\nrect.hover_key_SVGID_, polygon.hover_key_SVGID_, path.hover_key_SVGID_ { fill:orange;stroke:none; }\nimage.hover_key_SVGID_ { stroke:orange; }","reactive":true},"hover_theme":{"css":".hover_theme_SVGID_ { fill:orange;stroke:black;cursor:pointer; }\ntext.hover_theme_SVGID_ { stroke:none;fill:orange; }\ncircle.hover_theme_SVGID_ { fill:orange;stroke:black; }\nline.hover_theme_SVGID_, polyline.hover_theme_SVGID_ { fill:none;stroke:orange; }\nrect.hover_theme_SVGID_, polygon.hover_theme_SVGID_, path.hover_theme_SVGID_ { fill:orange;stroke:none; }\nimage.hover_theme_SVGID_ { stroke:orange; }","reactive":true},"select":{"css":".select_data_SVGID_ { fill:red;stroke:black;cursor:pointer; }\ntext.select_data_SVGID_ { stroke:none;fill:red; }\ncircle.select_data_SVGID_ { fill:red;stroke:black; }\nline.select_data_SVGID_, polyline.select_data_SVGID_ { fill:none;stroke:red; }\nrect.select_data_SVGID_, polygon.select_data_SVGID_, path.select_data_SVGID_ { fill:red;stroke:none; }\nimage.select_data_SVGID_ { stroke:red; }","type":"multiple","only_shiny":true,"selected":[],"linked":false},"select_inv":{"css":""},"select_key":{"css":".select_key_SVGID_ { fill:red;stroke:black;cursor:pointer; }\ntext.select_key_SVGID_ { stroke:none;fill:red; }\ncircle.select_key_SVGID_ { fill:red;stroke:black; }\nline.select_key_SVGID_, polyline.select_key_SVGID_ { fill:none;stroke:red; }\nrect.select_key_SVGID_, polygon.select_key_SVGID_, path.select_key_SVGID_ { fill:red;stroke:none; }\nimage.select_key_SVGID_ { stroke:red; }","type":"single","only_shiny":true,"selected":[]},"select_theme":{"css":".select_theme_SVGID_ { fill:red;stroke:black;cursor:pointer; }\ntext.select_theme_SVGID_ { stroke:none;fill:red; }\ncircle.select_theme_SVGID_ { fill:red;stroke:black; }\nline.select_theme_SVGID_, polyline.select_theme_SVGID_ { fill:none;stroke:red; }\nrect.select_theme_SVGID_, polygon.select_theme_SVGID_, path.select_theme_SVGID_ { fill:red;stroke:none; }\nimage.select_theme_SVGID_ { stroke:red; }","type":"single","only_shiny":true,"selected":[]},"zoom":{"min":1,"max":5,"duration":300,"default_on":false},"toolbar":{"position":"topright","pngname":"diagram","tooltips":null,"fixed":false,"hidden":[],"delay_over":200,"delay_out":500},"sizing":{"rescale":true,"width":1}}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="professionnel" class="level2">
+<h2 class="anchored" data-anchor-id="professionnel">👩💻 Professionnel</h2>
+<table class="table">
+<colgroup>
+<col style="width: 48%">
+<col style="width: 51%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><h1 id="er-oct.-2022---30-sept.-2025">1<sup>er</sup> oct. 2022 - 30 sept. 2025</h1>
+<p><strong>Chargée d’études de l’action régionale –</strong> <br><i><small>Insee, Direction régionale Île-de-France, Montigny-le-Bretonneux</small></i></p></td>
+<td><p>- Exploitation des données du Recensement de la Population et de l’Enquête Logement</p>
+<p>- Publication d’études sur des thématiques socio-démographiques</p>
+<p>- Co-organisation d’une formation locale autour de l’analyse démographique puisque référente de ce domaine dans ma division.</p></td>
+</tr>
+<tr class="even">
+<td><strong>Chargée de travaux dirigés statistiques et démographie –</strong> <br><i><small>Université Paris Cité, Paris</small></i></td>
+<td>- Initier les étudiants aux grands sujets démographiques avec des lectures de textes (Insee, Première) et des jeux de données démographiques.</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copié");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copié");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

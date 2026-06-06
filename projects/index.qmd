@@ -1,0 +1,14 @@
+---
+title: |
+    <span style="font-size: 44px;">
+    Répliquer quelques résultats de publications avec <img src="images/RStudio_Logo.png" alt="R" style="height:85px; vertical-align:middle;"></span>
+title-block-banner: "#CF4446"    
+format:
+  html:
+    fontcolor: "black"
+    link-external-newwindow: true
+listing:
+  contents: projects.yml
+  type: grid
+  max-description-length: 450
+---

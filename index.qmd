@@ -1,0 +1,46 @@
+---
+title: "Myriam Yahyaoui"
+subtitle: "<span style='color: #0f417a;'><strong>Démographe en maintenance</strong></span><br>Anciennement attachée statisticienne de l'Insee"
+image: www/profile.jpg
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/Myriam-ctrl-lang
+    - icon: linkedin
+      text: LinkedIn
+      href: https://fr.linkedin.com/in/myriam-yahyaoui-b5169612b
+    - icon: book
+      text: Bibliothèque Insee
+      href: https://bibliotheque.insee.net/form.aspx?SC=DEFAULT#/Search/(query:(CloudTerms:!(),FacetFilter:%7B%7D,ForceSearch:!t,InitialSearch:!f,ListSelectionPage:!n,Page:0,PageRange:3,QueryGuid:'3dabe066-5d53-4aba-a0c7-16a7cf0ab832',QueryString:'Myriam%20Yahyaoui',ResultSize:50,ScenarioCode:DEFAULT,ScenarioDisplayMode:display-standard,SearchGridFieldsShownOnResultsDTO:!(),SearchLabel:'',SearchTerms:'Myriam%20Yahyaoui',SortField:YearOfPublication_int_sort,SortOrder:0,TemplateParams:(Scenario:'',Scope:Default,Size:!n,Source:'',Support:'',UseCompact:!f),UseSpellChecking:!n),sst:4)  
+      
+bibliography: references/mes_publications.bib
+csl: references/my.csl
+nocite: |
+  @*
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+Après trois belles années au sein de la Direction Régionale de l'Insee
+Île-de-France, en tant que **chargée d'études de l'action régionale**,
+je souhaite poursuivre, avec la même passion, mon aventure dans le
+labyrinthe de l'analyse démographique. <br> J’ai acquis et consolidé un
+ensemble de connaissances concernant à la fois la constitution et le
+fonctionnement des groupes sociaux, des institutions mais également sur
+les principaux outils de la démographie et de la statistique. Je suis, à
+ce titre, associée au domaine quantitatif. <br> Mes **compétences
+variées** me permettent d’aborder à travers un prisme scientifique et
+systémique les problèmes auxquels je suis confrontée.
+
+#### 🏷️ Domaines d'intérêt
+
+[Les recensements de la population]{.badge} [La conjoncture
+démographique]{.badge} [Les migrations résidentielles]{.badge} [Les
+mobilités]{.badge} [L’histoire économique et sociale, politique et
+sanitaire des populations]{.badge} [Le langage de programmation
+R]{.badge}
+
+#### 📚️Mes publications

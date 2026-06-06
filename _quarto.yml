@@ -1,0 +1,42 @@
+project:
+  type: website
+
+lang: fr
+
+page-layout: full
+
+website:
+  title: "M.Y"
+  open-graph: true 
+  page-footer: ""
+  navbar:
+    left:
+      - text: À propos
+        href: index.qmd
+        icon: megaphone
+      - text: Mon parcours
+        href: parcours.qmd
+        icon: map
+      - text: Mes tutoriels
+        href: projects/index.qmd
+        icon: "bookmark-check"
+        
+    right:
+      - icon: mail
+        href: "mailto:myriam.yahyaoui2@gmail.com"
+        
+      - icon: github
+        href: https://github.com/andrewheiss
+        
+      - icon: linkedin
+        href: https://www.linkedin.com/in/andrewheiss
+
+        
+format:
+  html:
+    code-copy: true
+    self-contained: true
+    theme: [cosmo, www/styles.scss]
+    grid: 
+        margin-width: 500px
+
