@@ -1,6 +1,6 @@
 ---
 title: "Myriam Yahyaoui"
-subtitle: "<span style='color: #0f417a;'><strong>Démographe en maintenance</strong></span><br>Anciennement attachée statisticienne de l'Insee"
+subtitle: "<span style='color: #0f417a;'><strong>Démographe</strong></span><br>Anciennement attachée statisticienne de l'Insee"
 image: www/profile.jpg
 about:
   template: trestles
@@ -31,9 +31,7 @@ labyrinthe de l'analyse démographique. <br> J’ai acquis et consolidé un
 ensemble de connaissances concernant à la fois la constitution et le
 fonctionnement des groupes sociaux, des institutions mais également sur
 les principaux outils de la démographie et de la statistique. Je suis, à
-ce titre, associée au domaine quantitatif. <br> Mes **compétences
-variées** me permettent d’aborder à travers un prisme scientifique et
-systémique les problèmes auxquels je suis confrontée.
+ce titre, associée au domaine quantitatif.
 
 #### 🏷️ Domaines d'intérêt
 
