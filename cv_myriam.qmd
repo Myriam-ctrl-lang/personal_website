@@ -1,0 +1,152 @@
+---
+bibliography: ./references/mes_publications.bib
+csl: ./references/my.csl
+nocite: |
+  @*
+format: 
+  pdf: 
+    documentclass: article
+    geometry:
+      - top=14mm
+      - left=15mm
+      - right=15mm
+      - bottom=10mm
+      - heightrounded
+    colorlinks: true
+    link-external-newwindow: true
+    include-in-header: 
+      text: |
+        \usepackage{fontspec}
+        \usepackage{fontawesome5}
+        \usepackage{multicol}
+        \usepackage[most]{tcolorbox}
+        \usepackage{lipsum}
+        \usepackage{hyperref}
+        \usepackage{wrapfig}
+        \pagestyle{empty}
+        \definecolor{cvblue}{HTML}{0F417A}
+        \setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original values
+        \setlength{\columnsep}{3em}
+        \setlength{\parskip}{0pt}
+---
+<!-- TITLE -->
+\begin{flushleft}
+    {\huge\bfseries Myriam YAHYAOUI}\\[2pt]
+
+    {\large Démographe \textbar{} Informatique Décisionnelle}\\[4pt]
+
+    {\small
+    \faMapMarker* Île-de-France, France \; • \;
+    \faCalendar \ née le 18/05/1998 \; • \;
+    n° CIVI: V255783704
+    }\\[4pt]
+
+    {\small
+    \faEnvelope\ \href{mailto::myriam.yahyaoui2@gmail.com}{ myriam.yahyaoui2@gmail.com}
+    \; • \;
+    \faGithub\ \href{https://github.com/Myriam-ctrl-lang}{GitHub}
+    \; • \;
+    \faLinkedin\ \href{https://www.linkedin.com/in/myriam-yahyaoui-b5169612b/}{LinkedIn}
+    \; • \;
+    \faGlobe\ \href{https://019e9dd4-68cd-83db-efd9-55bb1b746b1a.share.connect.posit.cloud/}{Portfolio}
+    }
+\color{cvblue}\rule{\linewidth}{1.5pt}
+\end{flushleft}
+\vspace{-6pt}
+<!-- CONTACT INFO -->
+
+\begin{tcolorbox}[
+  colback=gray!10,
+  colframe=gray!10,
+  arc=3pt,
+  boxrule=0pt,
+  left=6pt,
+  right=6pt,
+  top=1pt,
+  bottom=1pt]
+
+Anciennement attachée statisticienne à l'Insee, mes missions consistaient à établir une \textbf{base commune de connaissances} sur l'évolution de la population \textbf{accessible à tous}, pour \textbf{éclairer} les débats et \textbf{fonder l'action publique}.
+
+\textbf{Langages de programmation} : R, HTML, CSS, SQL, Python (dans cet ordre)
+
+\textbf{Maîtrise de la suite Microsoft Office}
+
+\textbf{Référence} : François Dubujet - francois.dubujet@insee.fr
+\end{tcolorbox}
+
+<!-- EXPERIENCE : 1ST BULLET-->
+\begin{large}{\bf EXPÉRIENCE PROFESSIONNELLE}
+  \vspace{3pt}
+  {\color{cvblue}\hrule}
+  
+  \begin{multicols}{2}
+    \begin{flushleft}{
+      \includegraphics[trim=0 20mm 0 0,width=0.10\textwidth]{images/insee.png}
+      \bf \href{https://www.insee.fr/fr/accueil}{Insee}}\\
+      \hspace{16 mm}
+      \textit{Chargée d'études de l'action régionale}
+    \end{flushleft}
+    \begin{flushright}
+    \begin{small}(3 ans)\end{small} Oct. 2022 - Sept. 2025\\
+    {\small\color{gray} Direction régionale Île-de-France · Montigny-le-Bretonneux}
+    \end{flushright}
+  \end{multicols}
+\end{large}
+
+<!-- EXPERIENCE : 2ND BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{
+      \raisebox{-2.6mm}{
+      \includegraphics[trim=0 30mm 0 0,width=0.08\textwidth]{images/univ_paris_cite.jpg}}
+      \bf \href{https://u-paris.fr/choisir-sa-formation/}{Université Paris Cité}}\\
+      \hspace{16 mm}
+      \textit{Chargée de travaux dirigés, Statistiques}
+    \end{flushleft}
+    \begin{flushright}
+    Sept. 2023 - Nov. 2024\\
+    {\small\color{gray}Paris}
+    \end{flushright}
+  \end{multicols}
+\end{large}
+
+\vspace{4.5pt}
+
+<!-- EDUCATION: 1ST BULLET -->
+\begin{large}
+  {\bf FORMATION}
+  \vspace{3pt}
+  {\color{cvblue}\hrule}
+    \begin{flushleft}
+      \hspace{1 mm} {\bf ENS Paris-Saclay - Univ. de Versailles Saint-Quentin}       \textit{au titre de l'année universitaire 2021-2022} \\
+      \hspace{11 mm}\href{https://shs.ens-paris-saclay.fr/formations/master-2-sociologie-quantitative-demographie}{Master 2 - Sociologie Quantitative et démographie}
+    \end{flushleft}
+\end{large}
+\vspace{-6pt}
+
+<!-- EDUCATION: 2ND BULLET -->
+\begin{large}
+    \begin{flushleft}
+      \hspace{1 mm} {\bf Univ. Paris 1 Panthéon-Sorbonne}
+      \textit{au titre de l'année universitaire 2020-2021} \\
+      \hspace{11 mm}\href{https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/master-M/master-demographie-idup-KBUVO050.html}{Master Sciences humaines et sociales, mention démographie}
+    \end{flushleft}
+\end{large}
+\vspace{-6pt}
+
+<!-- EDUCATION: 3RD BULLET -->
+\begin{large}
+    \begin{flushleft}
+      \hspace{1 mm} {\bf L'école des hautes études en démographie}
+        \textit{au titre de l'année universitaire 2019-2020} \\
+      \hspace{11 mm}\href{https://ecolehed.fr/}{Certificat d'expertise en sciences des populations}
+    \end{flushleft}
+\end{large}
+\vspace{1.5pt}
+
+<!-- PERSONAL PROJECTS : 1ST BULLET -->
+\begin{large}
+{\bf PUBLICATIONS}
+  \vspace{3pt}
+  \hrule
+\end{large}  

@@ -1,6 +1,9 @@
 project:
   type: website
 
+resources:
+  - cv_myriam_2026.pdf
+  
 lang: fr
 
 page-layout: full
@@ -20,6 +23,8 @@ website:
       - text: Mes tutoriels
         href: projects/index.qmd
         icon: "bookmark-check"
+      - text: CV
+        href: cv_myriam_2026.pdf
         
     right:
       - icon: mail
@@ -36,6 +41,7 @@ format:
   html:
     code-copy: true
     self-contained: true
+    link-external-newwindow: true
     theme: [cosmo, www/styles.scss]
     grid: 
         margin-width: 500px

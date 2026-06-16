@@ -1,12 +1,47 @@
 ---
 title: "Informatique Décisionnelle, Sociologie & Démographie"
-title-block-banner: "#CF4446"    
+title-block-banner: "#00000000"
+title-block-banner-color: "#ffffff"
 format:
   html:
+    theme: slate
     fontcolor: "black"
-    link-external-newwindow: true
     toc: true
     self-contained: false
+include-in-header:
+  - text: |
+      <style>
+      #title-block-header {
+        position: relative;
+        background-image: url("./www/fond.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+      }
+
+      #title-block-header::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,0.55);
+      }
+
+      #title-block-header h1.title {
+        position: relative;
+        z-index: 2;
+        color: white !important;
+        font-size: 3rem;
+        font-weight: 800;
+        text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+      }
+
+      #title-block-header .quarto-title-meta {
+        position: relative;
+        z-index: 2;
+        color: white !important;
+      }
+      </style>
+
 runtime: shiny
 ---
 
