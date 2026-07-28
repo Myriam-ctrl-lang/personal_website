@@ -3,6 +3,9 @@ project:
 
 resources:
   - cv_myriam_2026.pdf
+  - "*.gif"
+  - "*.png"
+  - "*.jpg"
   
 lang: fr
 
