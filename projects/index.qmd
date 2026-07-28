@@ -2,13 +2,51 @@
 title: |
     <span style="font-size: 44px;">
     Répliquer quelques résultats de publications avec <img src="images/RStudio_Logo.png" alt="R" style="height:85px; vertical-align:middle;"></span>
-title-block-banner: "#CF4446"    
+title-block-banner: "#00000000"
+title-block-banner-color: "#ffffff"
 format:
   html:
+    theme: slate
     fontcolor: "black"
+    toc: true
+    self-contained: false
     link-external-newwindow: true
 listing:
   contents: projects.yml
   type: grid
   max-description-length: 450
+include-in-header:
+  - text: |
+      <style>
+      #title-block-header {
+        position: relative;
+        background-image: url("./images/verybadtrip.gif");
+        background-size: cover;
+        background-position: center;
+        height: 150px;
+      }
+
+      #title-block-header::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,0.55);
+      }
+
+      #title-block-header h1.title {
+        position: relative;
+        z-index: 2;
+        color: white !important;
+        font-size: 3rem;
+        font-weight: 800;
+        text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+      }
+
+      #title-block-header .quarto-title-meta {
+        position: relative;
+        z-index: 2;
+        color: white !important;
+      }
+      </style>
+
 ---
