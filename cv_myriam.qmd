@@ -81,9 +81,8 @@ Anciennement attachée statisticienne à l'Insee, mes missions consistaient à �
   
   \begin{multicols}{2}
     \begin{flushleft}{
-      \includegraphics[trim=0 20mm 0 0,width=0.10\textwidth]{images/insee.png}
       \bf \href{https://www.insee.fr/fr/accueil}{Insee}}\\
-      \hspace{16 mm}
+      \hspace{11 mm}
       \textit{Chargée d'études de l'action régionale}
     \end{flushleft}
     \begin{flushright}
@@ -97,10 +96,8 @@ Anciennement attachée statisticienne à l'Insee, mes missions consistaient à �
 \begin{large}
   \begin{multicols}{2}
     \begin{flushleft}{
-      \raisebox{-2.6mm}{
-      \includegraphics[trim=0 30mm 0 0,width=0.08\textwidth]{images/univ_paris_cite.jpg}}
       \bf \href{https://u-paris.fr/choisir-sa-formation/}{Université Paris Cité}}\\
-      \hspace{16 mm}
+      \hspace{11 mm}
       \textit{Chargée de travaux dirigés, Statistiques}
     \end{flushleft}
     \begin{flushright}
