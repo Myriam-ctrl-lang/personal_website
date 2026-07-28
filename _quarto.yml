@@ -5,6 +5,7 @@ resources:
   - cv_myriam_2026.pdf
   - "*.gif"
   - "*.png"
+  - "*.PNG"
   - "*.jpg"
   
 lang: fr
