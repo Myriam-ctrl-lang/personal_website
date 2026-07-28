@@ -1,7 +1,7 @@
 ---
 title: |
     <span style="font-size: 44px;">
-    Répliquer quelques résultats de publications avec <img src="images/RStudio_Logo.png" alt="R" style="height:85px; vertical-align:middle;"></span>
+    Répliquer quelques résultats de publications avec <img src="www/RStudio_Logo.png" alt="R" style="height:85px; vertical-align:middle;"></span>
 title-block-banner: "#00000000"
 title-block-banner-color: "#ffffff"
 format:
@@ -20,7 +20,7 @@ include-in-header:
       <style>
       #title-block-header {
         position: relative;
-        background-image: url("./images/verybadtrip.gif");
+        background-image: url("./www/verybadtrip.gif");
         background-size: cover;
         background-position: center;
         height: 150px;

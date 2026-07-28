@@ -1,17 +1,17 @@
 - title: "Mobilités résidentielles des cadres en Seine-Saint-Denis : une intensification récente"
   path: https://rpubs.com/MyrYahyaoui/1439130
-  image: ../projects/images/migr_res_ssd.png
+  image: ../projects/www/migr_res_ssd.png
   categories: [Insee, Recensement de la population, Fidéli, Migrations]
   date: 2026-01-15
 
 - title: "Bilan démographique 2024 de l’Île-de-France : deux fois plus de naissances que de décès"
   path: https://www.insee.fr/fr/statistiques/8391704
-  image: ../projects/images/bilan_demo.png
+  image: ../projects/www/bilan_demo.png
   categories: [Insee, Population]
   date: 2025-03-25
   
 - title: "La voiture à Paris : un bien en perte de vitesse"
   path: https://www.insee.fr/fr/statistiques/7717331
-  image: ../projects/images/voiture_idf.png
+  image: ../projects/www/voiture_idf.png
   categories: [Insee, Recensement de la population, Voiture, Ville, Pollution, Espace]
   date: 2023-11-23

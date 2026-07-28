@@ -13,7 +13,7 @@ include-in-header:
       <style>
       #title-block-header {
         position: relative;
-        background-image: url("./www/fond.jpg");
+        background-image: url("www/fond.jpg");
         background-size: cover;
         background-position: center;
         height: 200px;
