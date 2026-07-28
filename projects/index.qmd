@@ -6,7 +6,7 @@ title-block-banner: "#00000000"
 title-block-banner-color: "#ffffff"
 format:
   html:
-    theme: slate
+    theme: flatly
     fontcolor: "black"
     toc: true
     self-contained: false
