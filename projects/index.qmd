@@ -2,7 +2,7 @@
 title: |
     <span style="font-size: 44px;">
     Répliquer quelques résultats de publications avec <img src="www/RStudio_Logo.png" alt="R" style="height:85px; vertical-align:middle;"></span>
-
+title-block-banner-color: "#ffffff"
 format:
   html:
     theme: flatly
