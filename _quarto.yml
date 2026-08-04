@@ -2,7 +2,6 @@ project:
   type: website
 
 resources:
-  - cv_myriam_2026.pdf
   - "*.gif"
   - "*.png"
   - "*.PNG"
@@ -28,7 +27,7 @@ website:
         href: projects/index.qmd
         icon: "bookmark-check"
       - text: CV
-        href: cv_myriam.pdf
+        href: cv_myriam.qmd
         
     right:
       - icon: mail
