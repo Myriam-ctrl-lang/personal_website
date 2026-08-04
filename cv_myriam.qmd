@@ -48,7 +48,7 @@ format:
     \; • \;
     \faLinkedin\ \href{https://www.linkedin.com/in/myriam-yahyaoui-b5169612b/}{LinkedIn}
     \; • \;
-    \faGlobe\ \href{https://019e9dd4-68cd-83db-efd9-55bb1b746b1a.share.connect.posit.cloud/}{Portfolio}
+    \faGlobe\ \href{https://019faa13-01a5-02cb-6700-87db31a4d261.share.connect.posit.cloud/}{Portfolio}
     }
 \color{cvblue}\rule{\linewidth}{1.5pt}
 \end{flushleft}

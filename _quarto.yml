@@ -28,7 +28,7 @@ website:
         href: projects/index.qmd
         icon: "bookmark-check"
       - text: CV
-        href: cv_myriam_2026.pdf
+        href: cv_myriam.pdf
         
     right:
       - icon: mail
