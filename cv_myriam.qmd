@@ -112,7 +112,7 @@ Anciennement attachée statisticienne à l'Insee, mes missions consistaient à �
 <!-- EDUCATION: 1ST BULLET -->
 \begin{large}
   {\bf FORMATION}
-  \vspace{3pt}
+  \vspace{4pt}
   {\color{cvblue}\hrule}
     \begin{flushleft}
       \hspace{1 mm} {\bf ENS Paris-Saclay - Univ. de Versailles Saint-Quentin}       \textit{au titre de l'année universitaire 2021-2022} \\
