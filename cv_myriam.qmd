@@ -112,8 +112,9 @@ Anciennement attachée statisticienne à l'Insee, mes missions consistaient à �
 <!-- EDUCATION: 1ST BULLET -->
 \begin{large}
   {\bf FORMATION}
-  \vspace{6pt}
+  \vspace{3pt}
   {\color{cvblue}\hrule}
+  \vspace{3pt}
     \begin{flushleft}
       \hspace{1 mm} {\bf ENS Paris-Saclay - Univ. de Versailles Saint-Quentin}       \textit{au titre de l'année universitaire 2021-2022} \\
       \hspace{11 mm}\href{https://shs.ens-paris-saclay.fr/formations/master-2-sociologie-quantitative-demographie}{Master 2 - Sociologie Quantitative et démographie}
