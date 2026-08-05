@@ -119,7 +119,7 @@ Anciennement attachée statisticienne à l'Insee, mes missions consistaient à �
       \hspace{11 mm}\href{https://shs.ens-paris-saclay.fr/formations/master-2-sociologie-quantitative-demographie}{Master 2 - Sociologie Quantitative et démographie}
     \end{flushleft}
 \end{large}
-\vspace{-6pt}
+\vspace{3pt}
 
 <!-- EDUCATION: 2ND BULLET -->
 \begin{large}
@@ -129,7 +129,7 @@ Anciennement attachée statisticienne à l'Insee, mes missions consistaient à �
       \hspace{11 mm}\href{https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/master-M/master-demographie-idup-KBUVO050.html}{Master Sciences humaines et sociales, mention démographie}
     \end{flushleft}
 \end{large}
-\vspace{-6pt}
+\vspace{3pt}
 
 <!-- EDUCATION: 3RD BULLET -->
 \begin{large}
