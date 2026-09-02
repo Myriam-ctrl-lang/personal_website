@@ -5,13 +5,13 @@
   date: 2026-01-15
 
 - title: "Bilan démographique 2024 de l’Île-de-France : deux fois plus de naissances que de décès"
-  path: https://www.insee.fr/fr/statistiques/8391704
+  path: https://my-demographe.shinyapps.io/tableau_bord/
   image: ../projects/www/bilan_demo.PNG
   categories: [Insee, Population]
   date: 2025-03-25
   
-- title: "La voiture à Paris : un bien en perte de vitesse"
-  path: https://www.insee.fr/fr/statistiques/7717331
-  image: ../projects/www/voiture_idf.PNG
-  categories: [Insee, Recensement de la population, Voiture, Ville, Pollution, Espace]
+- title: "Les Enquêtes Logement (ENL)"
+  path: https://my-demographe.shinyapps.io/reporting_table_ENL/#section-%C3%A0-propos
+  image: ../projects/www/breno-assis-r3WAWU5Fi5Q-unsplash.jpg
+  categories: [Insee, Recensement de la population, Condition de logement, Taille des ménages]
   date: 2023-11-23
