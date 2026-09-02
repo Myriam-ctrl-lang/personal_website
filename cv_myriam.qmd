@@ -48,7 +48,7 @@ format:
     \; • \;
     \faLinkedin\ \href{https://www.linkedin.com/in/myriam-yahyaoui-b5169612b/}{LinkedIn}
     \; • \;
-    \faGlobe\ \href{https://019fcdf8-3a30-c209-d768-e12790f44a8b.share.connect.posit.cloud/}{Portfolio}
+    \faGlobe\ \href{https://019fd0be-95dd-7eef-0689-65a4eda8906f.share.connect.posit.cloud/}{Portfolio}
     }
 \color{cvblue}\rule{\linewidth}{1.5pt}
 \end{flushleft}
@@ -114,12 +114,13 @@ Anciennement attachée statisticienne à l'Insee, mes missions consistaient à �
   {\bf FORMATION}
   \vspace{3pt}
   {\color{cvblue}\hrule}
+  \vspace{3pt}
     \begin{flushleft}
       \hspace{1 mm} {\bf ENS Paris-Saclay - Univ. de Versailles Saint-Quentin}       \textit{au titre de l'année universitaire 2021-2022} \\
       \hspace{11 mm}\href{https://shs.ens-paris-saclay.fr/formations/master-2-sociologie-quantitative-demographie}{Master 2 - Sociologie Quantitative et démographie}
     \end{flushleft}
 \end{large}
-\vspace{-6pt}
+\vspace{3pt}
 
 <!-- EDUCATION: 2ND BULLET -->
 \begin{large}
@@ -129,7 +130,7 @@ Anciennement attachée statisticienne à l'Insee, mes missions consistaient à �
       \hspace{11 mm}\href{https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/master-M/master-demographie-idup-KBUVO050.html}{Master Sciences humaines et sociales, mention démographie}
     \end{flushleft}
 \end{large}
-\vspace{-6pt}
+\vspace{3pt}
 
 <!-- EDUCATION: 3RD BULLET -->
 \begin{large}
